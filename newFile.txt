@@ -1,0 +1,5 @@
+#writtern by FileProperties
+#Wed Jul 12 00:54:25 JST 2017
+day=21
+year=2004
+month=4
