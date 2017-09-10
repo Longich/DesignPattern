@@ -2,10 +2,12 @@ package singleton.practice1;
 
 public class Test {
     public static void main(String[] args) {
-        TicketMaker maker = TicketMaker.getInstance();
-        System.out.println(maker.getNextTicketNumber());
-        System.out.println(maker.getNextTicketNumber());
-        System.out.println(maker.getNextTicketNumber());
-        System.out.println(maker.getNextTicketNumber());
+        TicketMaker2 maker = TicketMaker2.Instance;
+        System.out.println(maker.takeNextNumber());
+        System.out.println(maker.takeNextNumber());
+        System.out.println(maker.takeNextNumber());
+        System.out.println(maker.takeNextNumber());
+        System.out.println(maker.takeNextNumber());
+        
     }
 }
